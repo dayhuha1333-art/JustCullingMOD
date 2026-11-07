@@ -1,4 +1,4 @@
-package com.github.dayhuha1333-art.justcullingmod.mixin;
+package com.github.dayhuha1333art.justcullingmod.init;
 
 import net.minecraft.client.gui.GuiMainMenu;
 import org.spongepowered.asm.mixin.Mixin;
