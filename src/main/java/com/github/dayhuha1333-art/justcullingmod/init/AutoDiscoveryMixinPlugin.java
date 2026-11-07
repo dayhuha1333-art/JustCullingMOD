@@ -1,4 +1,4 @@
-package com.example.init;
+package com.github.dayhuha1333-art.justcullingmod.init;
 
 import org.spongepowered.asm.lib.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
