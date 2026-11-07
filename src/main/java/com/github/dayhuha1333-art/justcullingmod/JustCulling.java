@@ -1,4 +1,4 @@
-package com.example.justculling;
+package com.github.dayhuha1333art.justcullingmod;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
@@ -102,7 +102,7 @@ public class JustCulling {
         Entity view = mc.getRenderViewEntity();
         if (view == null) view = mc.thePlayer;
 
-        float partial = mc.timer.renderPartialTicks;
+        float partial = 1.0F;
 
         double camX = view.prevPosX + (view.posX - view.prevPosX) * partial;
         double camY = view.prevPosY + (view.posY - view.prevPosY) * partial + view.getEyeHeight();
